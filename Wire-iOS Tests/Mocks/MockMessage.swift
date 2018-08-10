@@ -176,7 +176,7 @@ import WireLinkPreview
         return backingTextMessageData
     }
     
-    var backingUsersReaction: UsersByReaction! = [:]
+    var backingUsersReaction: UsersByReaction = [:]
     var backingTextMessageData: MockTextMessageData! = .none
     var backingFileMessageData: MockFileMessageData! = .none
     var backingLocationMessageData: MockLocationMessageData! = .none
